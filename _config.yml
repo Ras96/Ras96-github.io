@@ -37,7 +37,7 @@ social_media:
 topics:
   - name: Backend
     website: https://github.com/topics/backend
-    # image_url: https://raw.githubusercontent.com/github/explore/main/topics/backend/backend.png
+    image_url: https://image.flaticon.com/icons/png/512/2166/2166820.png
   - name: Go
     web_url: https://github.com/topics/go
     image_url: https://raw.githubusercontent.com/github/explore/main/topics/go/go.png
@@ -55,4 +55,4 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/main/topics/docker/docker.png
   - name: Deep learning
     web_url: https://github.com/topics/deep-learning
-    # image_url: https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png
+    image_url: https://image.flaticon.com/icons/png/512/2103/2103620.png
