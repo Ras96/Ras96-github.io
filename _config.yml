@@ -11,7 +11,13 @@ permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "home"
+      type: "home"
+    values:
+      layout: "home"
+  -
+    scope:
+      path: "posts"
       type: "posts"
     values:
       layout: "post"
