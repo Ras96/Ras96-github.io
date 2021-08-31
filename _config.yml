@@ -11,13 +11,7 @@ permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
-      path: "home"
-      type: "home"
-    values:
-      layout: "home"
-  -
-    scope:
-      path: "posts"
+      path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
@@ -42,7 +36,7 @@ social_media:
 
 topics:
   - name: Backend
-    website: https://github.com/topics/backend
+    website_url: https://github.com/topics/backend
     image_url: https://image.flaticon.com/icons/png/512/2166/2166820.png
   - name: Go
     web_url: https://github.com/topics/go
