@@ -1,5 +1,5 @@
 ---
 layout: default
-title: My Thoughts
+title: My Blog
 type: thoughts
 ---
