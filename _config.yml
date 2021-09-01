@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -26,9 +25,7 @@ projects:
     archived: false
     forks: true
     projects:
-    - dotfiles
-    - Ras96
-    - Ras96.github.io
+    # - repo names
 
 social_media:
   twitter: ras0q
@@ -36,8 +33,11 @@ social_media:
 
 topics:
   - name: Backend
-    website_url: https://github.com/topics/backend
+    web_url: https://github.com/topics/backend
     image_url: https://image.flaticon.com/icons/png/512/2166/2166820.png
+  - name: Deep learning
+    web_url: https://github.com/topics/deep-learning
+    image_url: https://image.flaticon.com/icons/png/512/2103/2103620.png
   - name: Go
     web_url: https://github.com/topics/go
     image_url: https://raw.githubusercontent.com/github/explore/main/topics/go/go.png
@@ -47,12 +47,6 @@ topics:
   - name: TypeScript
     web_url: https://github.com/topics/typescript
     image_url: https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png
-  - name: C++
-    web_url: https://github.com/topics/cpp
-    image_url: https://raw.githubusercontent.com/github/explore/main/topics/cpp/cpp.png
   - name: Docker
     web_url: https://github.com/topics/docker
     image_url: https://raw.githubusercontent.com/github/explore/main/topics/docker/docker.png
-  - name: Deep learning
-    web_url: https://github.com/topics/deep-learning
-    image_url: https://image.flaticon.com/icons/png/512/2103/2103620.png
